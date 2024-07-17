@@ -21,12 +21,12 @@ int main()
 	tmp2 = src->createMateria("ice");
 	me->equip(tmp2);
 
-	ICharacter *bob = new Character("bob");
+	ICharacter *doji = new Character("doji");
 
-	me->use(0, *bob);
-	me->use(1, *bob);
+	me->use(0, *doji);
+	me->use(1, *doji);
 
-	delete bob;
+	delete doji;
 	delete me;
 	delete src;
 
