@@ -1,5 +1,3 @@
-// Description: Write a program that takes a string and displays it in upper case, followed by a newline.
-// If no string is given, it displays * LOUD AND UNBEARABLE FEEDBACK NOISE *
 #include <iostream>
 
 int	main(int charc, char **argv)

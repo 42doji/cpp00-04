@@ -1,7 +1,7 @@
 NAME=megaphone
 CPP=g++
 CPPFLAGS=-Wall -Wextra -Werror
-SRC=megaphone.cpp
+SRC=megaphone.cpp megaphone2.cpp
 OBJ=$(SRC:.cpp=.o)
 
 all: $(NAME)
@@ -11,7 +11,6 @@ $(NAME): $(OBJ)
 
 %.o: %.cpp
 	$(CPP) $(CPPFLAGS) -c $< -o $@
-
 clean:
 	rm -f $(OBJ)
 
