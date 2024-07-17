@@ -5,9 +5,11 @@ SRCS_DIR	=		srcs
 OBJ_DIR		=		.objs
 INCS_DIR	=		includes
 INCS		=		ClapTrap.hpp \
-					ScavTrap.hpp
+					ScavTrap.hpp \
+					FragTrap.hpp
 SRCS 		=		ClapTrap.cpp \
 					ScavTrap.cpp \
+					FragTrap.cpp \
 						main.cpp
 OBJS		=		$(addprefix $(OBJ_DIR)/, $(SRCS:.cpp=.o))
 

@@ -1,20 +1,15 @@
 #include "../includes/ClapTrap.hpp"
 #include "../includes/ScavTrap.hpp"
+#include "../includes/FragTrap.hpp"
 
 int main()
 {
-	ScavTrap scav("Doji");
-	ScavTrap scav2("Koji");
+	FragTrap doji("Doji");
 
-	scav.attack("elon musk");
-	scav.takeDamage(10);
-	scav.beRepaired(10);
-	scav.guardGate();
-
-	scav2.attack("jeff bezos");
-	scav2.takeDamage(10);
-	scav2.beRepaired(10);
-	scav2.guardGate();
+	doji.attack("elon musk");
+	doji.takeDamage(10);
+	doji.beRepaired(5);
+	doji.highFives();
 
 	return 0;
 }
